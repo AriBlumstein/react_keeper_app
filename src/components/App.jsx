@@ -26,9 +26,7 @@ function App(){
 
     return <div>
         <Header title="Keeper App" />
-        <div style = {{display:'flex',  justifyContent: "center"}}>
-            <Form addNote = {addNote} />
-        </div>
+        <Form addNote = {addNote} />
         {notes.map((note, index) => 
         (<Note 
             key = {index}

@@ -50,18 +50,18 @@ footer p {
   margin: 16px;
   float: left;
 }
-.note h1, .create-note #title {
+.note h1, .create-note-me #title {
   font-size: 1.1em;
   margin-bottom: 6px;
 }
-.note p .create-note #content {
+.note p .create-note-me #content {
   font-size: 1.1em;
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-.note button, .create-note button {
+.note button, .create-note-me button {
   position: relative;
   float: right;
   margin-right: 10px;
@@ -76,13 +76,16 @@ footer p {
 }
 
 
-.create-note{
+.create-note-me{
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
   width: 240px;
-  margin: 16px;
+  position: relative;
 }
 
 
